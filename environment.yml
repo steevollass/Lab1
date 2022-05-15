@@ -1,4 +1,4 @@
-name: Uzi
+name: Lab_HW1
 dependencies:
   - python=3.8
   - pip
