@@ -9,7 +9,7 @@ def main():
     directory = sys.argv[1]
     print(f'Loading patients from {directory}')
     test_data = get_input(directory, model='baseline').fillna(0)
-    loaded_model = pickle.load(open(baseline, 'rb'))
+    loaded_model = pickle.load(open('../Models/Baselinebasic.sav', 'rb'))
 
     print(f'Performing prediction...')
     y_pred = loaded_model.predict(test_data.drop(['SepsisLabel', 'id'], axis=1))

@@ -85,8 +85,8 @@ def flattened_data_MLP(data_type='basic'):
 
 
 def main():
-    baseline_MLP()
-    # flattened_data_MLP()
+    # baseline_MLP()
+    flattened_data_MLP()
 
 
 
