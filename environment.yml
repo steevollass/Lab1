@@ -1,0 +1,11 @@
+name: Uzi
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - numpy==1.22.3
+      - pandas==1.2.4
+      - matplotlib==3.5.1
+      - tqdm==4.62.3
+      - torch==1.11.0
+      - scikit-learn==1.1.0
